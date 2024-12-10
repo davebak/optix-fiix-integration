@@ -1,0 +1,187 @@
+Name: WorkOrderStatus
+Type: FolderType
+Children:
+- Name: 'Closed, Incomplete'
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645912
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Closed, Incomplete"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 102
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 9
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "7f6b62ea-4ad8-424a-8205-6adc8caa8c81"
+- Name: Requested
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645905
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Requested"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "18e0684b-5e02-4002-b0be-f9c9bd669ec2"
+- Name: Draft
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645907
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Draft"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 103
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 8
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "092da402-35c8-4ca6-8bf2-1a72ea3244b6"
+- Name: On Hold
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645906
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "On Hold"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 6
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "5d78183d-7586-4d10-804a-6e31bff90d1e"
+- Name: Open
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645909
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Open"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 101
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "57ef149f-5cce-4366-b842-a93904ebce3b"
+- Name: Assigned
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645908
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Assigned"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 101
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "10ad4c9b-c0cb-47cc-86b2-f4b8f11e83c0"
+- Name: 'Closed, Completed'
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645911
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Closed, Completed"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 102
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 7
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "be8e6659-5b44-40cd-be66-95bf39778518"
+- Name: Work In Progress
+  Type: WOStatus
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 645910
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Work In Progress"
+  - Name: intControlID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 101
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 5
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "72dd1a1b-e112-4b7d-8b44-6c76edca257e"

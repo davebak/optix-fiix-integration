@@ -1,0 +1,261 @@
+Name: AssetCategories
+Type: FolderType
+Children:
+- Name: Equipment
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239238
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "21ea119a-fe24-4508-baf5-a69c5c7a7899"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Equipment"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239236
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Rotating Spares
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239239
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "b8531491-2816-471e-bf7d-c1e048b6137b"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Rotating Spares"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 11
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239238
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Assets
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239236
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ebed952b-8422-462e-9f6b-36eca1d2d54a"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Assets"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Locations And Facilities
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239237
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "bd294d3f-9fdf-4de3-acfc-82bbc58e4c3b"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Locations And Facilities"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239236
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Inventory Storage
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239242
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "da566277-5c7d-4ffc-81ae-0e80942f1ada"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Inventory Storage"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: -1
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239237
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Buildings
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239243
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "e02545f9-c541-42fa-a0f5-97eb222c34a7"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Buildings"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: -1
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239237
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Tools
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239240
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "a5218b03-b2b2-4e74-b988-797898575d42"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tools"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239236
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Parts And Supplies
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239241
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "1d0c795e-6891-4a1a-ae66-959528669b71"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Parts And Supplies"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239236
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Plants
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239244
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "6f5811ad-a83f-47a4-91a8-e98bbb0a23bc"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Plants"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: -1
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239237
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Region
+  Type: AssetCategory
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239245
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "dbad4f6f-d591-46fe-927d-73d0792ccda3"
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Region"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: intParentID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1239236
+  - Name: Cfg_enabled
+    Type: BaseDataVariableType
+    DataType: Boolean

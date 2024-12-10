@@ -1,0 +1,49 @@
+Name: AssetEventTypes
+Type: FolderType
+Children:
+- Name: 'randomcode - New Asset Event Type #1'
+  Type: AssetEventType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 270116
+  - Name: strEventName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "New Asset Event Type #1"
+  - Name: strUniqueKey
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "randomcode"
+  - Name: strEventCode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "randomcode"
+  - Name: strEventDescription
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Some random thing"
+- Name: 'AE2 - Conveyor Shut Down'
+  Type: AssetEventType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 270250
+  - Name: strEventName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Conveyor Shut Down"
+  - Name: strUniqueKey
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AE2"
+  - Name: strEventCode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AE2"
+  - Name: strEventDescription
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Conveyor has stopped working."

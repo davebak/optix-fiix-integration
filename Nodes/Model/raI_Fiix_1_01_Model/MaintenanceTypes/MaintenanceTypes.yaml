@@ -1,0 +1,233 @@
+Name: MaintenanceTypes
+Type: FolderType
+Children:
+- Name: Upgrade
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788780
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Upgrade"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "2edf4b9c-e5e0-4d33-b66d-476b46b0aa5c"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "6fae9c"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 5
+- Name: Electrical
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788781
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Electrical"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cb4b2e31-f80f-4d09-8cd4-d8dae24cfee3"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "d2ca4e"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 6
+- Name: Project
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788782
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Project"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "d29fa81d-278b-4ac1-bf34-78aac536356a"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "967855"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 7
+- Name: Inspection
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788783
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Inspection"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "7375c47c-4532-4c82-897b-6a067a3b8055"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "638582"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 8
+- Name: Preventive
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788776
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Preventive"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "27fe9e6f-0f6f-462b-99aa-3dd1be8ace7a"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "2d61ae"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+- Name: Damage
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788777
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Damage"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "3345f83a-88f1-4d1d-b2d6-19fe0f8f2e2d"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cc4140"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+- Name: Corrective
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788778
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Corrective"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "70d4470b-8763-4bb7-aba9-0e3e91e72111"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "74bc50"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+- Name: Safety
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788779
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Safety"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "067f5be5-342f-47e8-a00a-b2eb25a16b3e"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "FF9900"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+- Name: Meter reading
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788784
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Meter reading"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "dd44697e-7428-41fa-8726-3b11ba19e361"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "7F7F7F"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 9
+- Name: Other
+  Type: MaintenanceType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 788785
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Other"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0dfba3f7-150b-4932-ae94-e768585d07dc"
+  - Name: strColor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "d36e87"
+  - Name: intSysCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10

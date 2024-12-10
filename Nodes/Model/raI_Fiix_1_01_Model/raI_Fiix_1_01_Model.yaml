@@ -1,0 +1,223 @@
+Name: raI_Fiix_1_01_Model
+Type: FolderType
+Children:
+- File: Assets/Assets.yaml
+- File: AssetCategories/AssetCategories.yaml
+- File: AssetEventTypes/AssetEventTypes.yaml
+- File: AssetOfflineReasons/AssetOfflineReasons.yaml
+- File: AssetOnlineReasons/AssetOnlineReasons.yaml
+- File: Priorities/Priorities.yaml
+- File: WorkOrderStatus/WorkOrderStatus.yaml
+- File: MaintenanceTypes/MaintenanceTypes.yaml
+- File: Template/Template.yaml
+- Name: MeterReadingDataLogger
+  Id: g=b8453446fa3e7879c99e04240961bbbe
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OT_FiixOptixIntegrationProject/Model/raI_Fiix_1_01_Model/MeterReadingDataStore"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: VariablesToLog
+    Type: BaseObjectType
+    Children:
+    - Name: 'Water Filter #A9_AssetID65025167_EUPSI_EUID850659'
+      Type: VariableToLog
+      DataType: UInt16
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/OT_FiixOptixIntegrationProject/Model/raI_Fiix_1_01_Model/Assets/Site_Canada/Cambridge, ON #A7/Water Filter #A9/PressureReading"
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+    - Name: 'Water Filter #A9_AssetID65025167_EUcycles_EUID850660'
+      Type: VariableToLog
+      DataType: Int32
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/OT_FiixOptixIntegrationProject/Model/raI_Fiix_1_01_Model/Assets/Site_Canada/Cambridge, ON #A7/Water Filter #A9/StartCount"
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+  - Class: Reference
+    Target: ns=9;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:10.0000000"
+  - Name: PollingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:01.0000000"
+  - Name: DefaultDeadBandValue
+    Type: PropertyType
+    DataType: Double
+- Name: MeterReadingDataStore
+  Id: g=7bb395dd7fab8bf48ac4428f2709fea9
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: MeterReadingDataLogger
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: 'Water Filter #A9_AssetID65025167_EUPSI_EUID850659'
+          Type: StoreColumn
+          DataType: UInt16
+        - Name: 'Water Filter #A9_AssetID65025167_EUcycles_EUID850660'
+          Type: StoreColumn
+          DataType: Int32
+  - Class: Reference
+    Target: ns=19;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MeterReadingDataStore"
+- Name: MeterReadingUnits
+  Type: EngineeringUnitDictionary
+  DataType: EngineeringUnitDictionaryItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":855732,"DisplayName":{"LocaleId":"en-US","Text":"??"},"Description":{"LocaleId":"en-US","Text":"Fiix_Dave's Meter Reading"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850652,"DisplayName":{"LocaleId":"en-US","Text":"ph"},"Description":{"LocaleId":"en-US","Text":"Fiix_ProductionHours"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850653,"DisplayName":{"LocaleId":"en-US","Text":"rev"},"Description":{"LocaleId":"en-US","Text":"Fiix_Revolutions"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850654,"DisplayName":{"LocaleId":"en-US","Text":"l"},"Description":{"LocaleId":"en-US","Text":"Fiix_Litres"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850655,"DisplayName":{"LocaleId":"en-US","Text":"g"},"Description":{"LocaleId":"en-US","Text":"Fiix_Gallons"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850651,"DisplayName":{"LocaleId":"en-US","Text":"h"},"Description":{"LocaleId":"en-US","Text":"Fiix_Hours"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850660,"DisplayName":{"LocaleId":"en-US","Text":"cycles"},"Description":{"LocaleId":"en-US","Text":"Fiix_Cycles"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850661,"DisplayName":{"LocaleId":"en-US","Text":"km"},"Description":{"LocaleId":"en-US","Text":"Fiix_Kilometers"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850656,"DisplayName":{"LocaleId":"en-US","Text":"m"},"Description":{"LocaleId":"en-US","Text":"Fiix_Meters"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850657,"DisplayName":{"LocaleId":"en-US","Text":"mi"},"Description":{"LocaleId":"en-US","Text":"Fiix_Miles"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850658,"DisplayName":{"LocaleId":"en-US","Text":"kPa"},"Description":{"LocaleId":"en-US","Text":"Fiix_Kilopascals"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850659,"DisplayName":{"LocaleId":"en-US","Text":"PSI"},"Description":{"LocaleId":"en-US","Text":"Fiix_Pounds per square inch"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}}]
+- Name: ns=15;LibraryReference
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 15
+    },
+    "Body": {
+     "libraryGuid": "00ee9c6301443876c2f588d9be610c81",
+     "objectGuid": "33ffc9365a4b2a6592e9dcefc7bad714",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }

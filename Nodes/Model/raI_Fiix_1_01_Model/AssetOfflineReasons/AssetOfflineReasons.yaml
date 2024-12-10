@@ -1,0 +1,193 @@
+Name: AssetOfflineReasons
+Type: FolderType
+Children:
+- Name: Broken
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508283
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Broken"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:45:56.8290000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "f499e675-402b-4aa6-ac5b-6d3dfb6ec05e"
+- Name: In storage
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508284
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "In storage"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:45:56.8530000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "545e21de-8095-4e3e-83c0-f45f85c9381c"
+- Name: Idle
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508285
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Idle"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:45:56.8780000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "c8ca0bfc-bfc2-4aa9-911a-b93cdb4f811b"
+- Name: Retired
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508286
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Retired"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:45:56.9030000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "427cda3c-02d2-4dd7-bd79-dca2627f7484"
+- Name: Under repair
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508287
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Under repair"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:45:56.9280000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "b0d9661c-831c-4462-bbe6-70f20b29f0bb"
+- Name: Damaged
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508288
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Damaged"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:04.7800000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "b9c26cc3-3739-4a3f-abdf-c3e5b631aab4"
+- Name: Under Repair
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508289
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Under Repair"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:04.8370000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0a29da23-abf6-428b-bb8a-02d2bfbc4d4a"
+- Name: In Storage
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508290
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "In Storage"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:05.0370000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "00aaf88b-6994-497e-b95c-b046706c9ae3"
+- Name: Replaced
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508291
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Replaced"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:05.1320000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "6d19977f-e5c3-4854-9fd8-8b6be866bfd0"
+- Name: Sold
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 508292
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Sold"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:05.2380000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "d61ad077-ef30-4453-842a-02c52af93ba3"

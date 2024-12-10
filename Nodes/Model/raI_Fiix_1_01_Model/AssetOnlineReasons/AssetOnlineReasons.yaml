@@ -1,0 +1,117 @@
+Name: AssetOnlineReasons
+Type: FolderType
+Children:
+- Name: In production
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 290425
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "In production"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:45:56.9560000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "92cbd4a0-0d1e-4544-b07b-ec3994f68bb4"
+- Name: On standby
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 290426
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "On standby"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:45:56.9840000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "203f1bd6-0fe4-4d5f-aa62-15fe0b09d62a"
+- Name: In Use
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 290427
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "In Use"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:04.7360000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "cb4d84d5-13df-442d-ad65-d8651a86553b"
+- Name: Available for Use
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 290428
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Available for Use"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:04.8890000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "a9f858bb-cfda-41ba-8489-d85d89a5147e"
+- Name: In Rotation
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 290429
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "In Rotation"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:04.9460000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "e5f453d0-ca9a-4301-a487-813f6b900e68"
+- Name: Ready for Quality Check
+  Type: AssetOfflineReason
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 290430
+  - Name: strName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ready for Quality Check"
+  - Name: dtUpdated
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2024-11-19T20:46:04.9840000"
+  - Name: strUuid
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "74bc1429-28b4-48c7-804d-42bc337b036b"

@@ -1,0 +1,59 @@
+Name: Micro850_PLC
+Id: g=09195ee264e017d680798afa75ca7b64
+Type: MicroControllerStation
+Children:
+- Name: IPAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.0.10"
+- Name: NodeAddress
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 1
+- Name: ErrorChecking
+  Type: BaseDataVariableType
+  DataType: ErrorChecking
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:10.0000000"
+- Name: MaxRetries
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 3
+- Name: ConnectionTimeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:03.0000000"
+- Name: ACKTimeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:03.0000000"
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+- Class: Reference
+  Target: ns=3;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=3;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=3;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=3;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=3;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=3;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
