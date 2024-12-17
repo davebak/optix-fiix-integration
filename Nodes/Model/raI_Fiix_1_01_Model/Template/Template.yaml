@@ -41,16 +41,16 @@ Children:
   - Name: Sts_LastExecutionResult
     Type: BaseDataVariableType
     DataType: String
-    Value: "0 new and 1 synced sites; 1 new and 4 synced assets"
+    Value: "0 new and 10 synced AssetCategory; 1 new and 2 synced EventType; 0 new and 10 synced OfflineReason; 0 new and 6 synced OnlineReason; 0 new and 5 synced Priority; 0 new and 8 synced WorkOrderStatus; "
   - Name: Sts_LastExecutionDatetime
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "2024-12-09T21:09:42.2950794"
+    Value: "2024-12-15T21:01:06.9577428"
   - Name: Set_FilterAssetNames
     Type: BaseDataVariableType
     DataType: String
     Description: {"LocaleId":"en-US","Text":"Part of name(s) used to filter the assets (not include location, facility) which are to be synced from Fiix to Optix, seperated with comma."}
-    Value: "Forklift,Water"
+    Value: "Pump"
   - Name: Set_FilterEnabledAssetCategoryOnly
     Type: BaseDataVariableType
     DataType: Boolean
@@ -130,6 +130,16 @@ Children:
     DataType: Boolean
     Description: {"LocaleId":"en-US","Text":"When true, Optix will turn on the Push agent sending of meter readings when runtime start."}
     Value: true
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/MicroControllerDriver/Micro850_Controller/Tags/_IO_EM_DO_00"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Class: Method
     Name: ClearPushAgentTempStore
   - Name: Set_AssetStatusAutoUpdate

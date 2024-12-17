@@ -1,4 +1,4 @@
 Name: CommDrivers
 Type: CommDriversCategoryFolder
 Children:
-- File: MicroLogix/MicroLogix.yaml
+- File: MicroControllerDriver/MicroControllerDriver.yaml

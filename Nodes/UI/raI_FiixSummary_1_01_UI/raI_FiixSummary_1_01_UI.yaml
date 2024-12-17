@@ -603,7 +603,12 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1280.0
+    Value: 1000.0
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 1
 - File: GraphicSymbols/GraphicSymbols.yaml
 - File: Widgets/Widgets.yaml
 - File: _PrivateElements_/_PrivateElements_.yaml

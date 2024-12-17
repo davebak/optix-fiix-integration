@@ -1,5 +1,5 @@
-Name: Micro850_PLC
-Id: g=09195ee264e017d680798afa75ca7b64
+Name: Micro850_Controller
+Id: g=e092a6c82d083abb704d894c0f1b47c6
 Type: MicroControllerStation
 Children:
 - Name: IPAddress

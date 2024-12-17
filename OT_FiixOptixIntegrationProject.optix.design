@@ -43,4 +43,4 @@ Project:
   ReferenceTypes: 0
   Files: 1
  Nodes:
- - File: DesignTimeNodes/CommDrivers/MicroLogix/Micro850_PLC/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/MicroControllerDriver/Micro850_Controller/TagImporter.yaml

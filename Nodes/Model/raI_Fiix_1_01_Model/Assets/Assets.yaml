@@ -389,13 +389,13 @@ Children:
     - Name: bolIsRegion
       Type: BaseDataVariableType
       DataType: Boolean
-    - Name: 'Water Filter #A9'
+    - Name: 'Water Pump #A9'
       Type: Asset
       Children:
       - Name: strName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Water Filter #A9"
+        Value: "Water Pump #A9"
       - Name: id
         Type: BaseDataVariableType
         DataType: Int32
@@ -458,7 +458,7 @@ Children:
       - Name: dtUpdated
         Type: BaseDataVariableType
         DataType: DateTime
-        Value: "2024-12-05T00:52:54.4590000"
+        Value: "2024-12-16T00:51:14.8130000"
       - Class: Reference
         Target: g=0dc2e5f88fdb9778434b5c4086978676
         Direction: Forward
@@ -518,7 +518,7 @@ Children:
       - Name: bolIsRegion
         Type: BaseDataVariableType
         DataType: Boolean
-      - Name: PressureReading
+      - Name: Pressure
         Type: AnalogItemType
         DataType: UInt16
         Children:
@@ -532,6 +532,15 @@ Children:
           - Name: High
             Type: BaseDataVariableType
             DataType: Double
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../../CommDrivers/MicroControllerDriver/Micro850_Controller/Tags/_IO_P2_AO_00"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
         - Name: EngineeringUnits
           Type: EUInformationType
           DataType: EUInformation
@@ -550,15 +559,6 @@ Children:
             Type: BaseDataVariableType
             DataType: NamespaceIndex
             Value: 24
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../../../../../CommDrivers/MicroLogix/Micro850_PLC/Tags/_IO_P2_AO_00"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            Value: 2
       - Name: StartCount
         Type: AnalogItemType
         DataType: Int32
@@ -576,7 +576,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../../../../../CommDrivers/MicroLogix/Micro850_PLC/Tags/START_COUNTER"
+          Value: "../../../../../../../CommDrivers/MicroControllerDriver/Micro850_Controller/Tags/START_COUNTER"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -590,6 +590,47 @@ Children:
             Type: BaseDataVariableType
             DataType: Int32
             Value: 850660
+          - Name: DisplayName
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Description
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: NamespaceIndex
+            Type: BaseDataVariableType
+            DataType: NamespaceIndex
+            Value: 24
+      - Name: RunTime
+        Type: AnalogItemType
+        DataType: UInt32
+        Children:
+        - Name: EURange
+          Type: RangeType
+          DataType: Range
+          Children:
+          - Name: Low
+            Type: BaseDataVariableType
+            DataType: Double
+          - Name: High
+            Type: BaseDataVariableType
+            DataType: Double
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../../CommDrivers/MicroControllerDriver/Micro850_Controller/Tags/OUT_TIME"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+        - Name: EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          Children:
+          - Name: UnitId
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 857949
           - Name: DisplayName
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -728,131 +769,3 @@ Children:
     - Name: bolIsRegion
       Type: BaseDataVariableType
       DataType: Boolean
-    - Name: 'Forklift #A22'
-      Type: Asset
-      Children:
-      - Name: strName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Forklift #A22"
-      - Name: id
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 65058849
-      - Name: strCode
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "A22"
-      - Name: strAddressParsed
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: strTimezone
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: intCategoryID
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 1239238
-      - Name: intSuperCategorySysCode
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 2
-      - Name: intSiteID
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 65058670
-      - Name: intAssetLocationID
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 65058841
-      - Class: Reference
-        Target: g=37be48c9e8821d2d9a019a54642d4cfb
-        Direction: Forward
-      - Name: strDescription
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: strMake
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: strModel
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: strInventoryCode
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: strBinNumber
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: strSerialNumber
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: strRow
-        Type: BaseDataVariableType
-        DataType: String
-      - Name: bolIsOnline
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: true
-      - Name: dtUpdated
-        Type: BaseDataVariableType
-        DataType: DateTime
-        Value: "2024-12-05T01:03:11.5930000"
-      - Class: Reference
-        Target: g=0dc2e5f88fdb9778434b5c4086978676
-        Direction: Forward
-      - Class: Reference
-        Target: g=77b31a56700674c5c7916b9b9568a211
-        Direction: Forward
-      - Name: Sts_LastActionResult
-        Type: BaseDataVariableType
-        DataType: String
-      - Class: Reference
-        Target: g=6ed02e599da98bf006630a9bcedbdede
-        Direction: Forward
-      - Name: Sts_LastActionDatetime
-        Type: BaseDataVariableType
-        DataType: DateTime
-      - Class: Reference
-        Target: g=1789e2b4f61c89ff5fe958954b5f9fe3
-        Direction: Forward
-      - Class: Reference
-        Target: g=6638d7253245e953c5b3aa764d75f646
-        Direction: Forward
-      - Name: strAisle
-        Type: BaseDataVariableType
-        DataType: String
-      - Class: Reference
-        Target: g=42b6a8cc0bf9fd6630ee34e1736506ed
-        Direction: Forward
-      - Class: Reference
-        Target: g=d68bf0d63e36135a4276857bde57561e
-        Direction: Forward
-      - Name: AssetDesignTimeLogic
-        Type: NetLogic
-        Children:
-        - Name: BehaviourStartPriority
-          Type: BehaviourStartPriorityVariableType
-          DataType: Byte
-          Value: 180
-        - Class: Reference
-          Target: g=68248bc2f47f4d7af43c0446fd6d2f83
-          Direction: Forward
-      - Class: Reference
-        Target: g=fba15608840611d05324239a4a7b22cb
-        Direction: Forward
-      - Name: Sts_OpenWorkOrderCount
-        Type: BaseDataVariableType
-        DataType: Int32
-      - Class: Reference
-        Target: g=acea255f6df2a9084a4b85b7fc4d9213
-        Direction: Forward
-      - Name: intAssetParentID
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 65058841
-      - Name: bolIsSite
-        Type: BaseDataVariableType
-        DataType: Boolean
-      - Name: bolIsRegion
-        Type: BaseDataVariableType
-        DataType: Boolean

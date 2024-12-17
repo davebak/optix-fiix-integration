@@ -1,4 +1,4 @@
-Name: MicroLogix
+Name: MicroControllerDriver
 Type: MicroControllerDriver
 Children:
 - Name: ControllerType
@@ -28,4 +28,4 @@ Children:
 - Name: StopBits
   Type: BaseDataVariableType
   DataType: StopBits
-- File: Micro850_PLC/Micro850_PLC.yaml
+- File: Micro850_Controller/Micro850_Controller.yaml

@@ -24,6 +24,29 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Some random thing"
+- Name: 'AE3 - Pump Exceeded Normal Pressure'
+  Type: AssetEventType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 270561
+  - Name: strEventName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pump Exceeded Normal Pressure"
+  - Name: strUniqueKey
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AE3"
+  - Name: strEventCode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AE3"
+  - Name: strEventDescription
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pump has exceeded 130 PSI"
 - Name: 'AE2 - Conveyor Shut Down'
   Type: AssetEventType
   Children:
