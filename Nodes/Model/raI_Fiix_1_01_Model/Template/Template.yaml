@@ -12,12 +12,12 @@ Children:
     Type: BaseDataVariableType
     DataType: Password
     Description: {"LocaleId":"en-US","Text":"Retrieved from Fiix MA Connect API Application settings"}
-    SecretValue: mDW212orl370T/R4PWOIoKXkQLzfafzy2n7anxXsSToBLGOMWfTkmVwOVNqBRWudoT3bLsq2Nno6qIt+CYq+xc+D1X0wm1x1SXYigFz6kaStTofzEETQFebESw==
+    SecretValue: guAKEFM85KYsACCNWIarG2OxrEFYIJKQMcsXdE+Js58//WOiIPIMvIXm6kTZRtPwdBhQEp0yCSgFxIhftpvn+fFI/wXIoCnvoVNhTe4zAtry1DO3PQUR7zbdsw==
   - Name: Cfg_AppKey
     Type: BaseDataVariableType
     DataType: Password
     Description: {"LocaleId":"en-US","Text":"Retrieved from Fiix MA Connect API Application settings"}
-    SecretValue: eC7ugjZ5q3e0eYfXWNdV2hSKM7TM02KgxnaEVo2h1CD+Y1fOegLOi3Tuyy4O0SZ3soyK8oVqoERzR6HSymmY+xUH3iDrHKpcIE9J3QFukVXTW7M5a6hmnUWlfs+C
+    SecretValue: M8n0syrf0hq+h2KR4WaYhC1PJQ0khns1ftWDlMQ2eyWOAhS+OeeqzCmmodsXpRMSLT6eB2uXWk1wg+sNNiqA633zcZ6gMyIG0aQswle7dxSUGMBltwY0tUMKXCGa
   - Name: Cfg_FiixURL
     Type: BaseDataVariableType
     DataType: String
@@ -27,7 +27,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Password
     Description: {"LocaleId":"en-US","Text":"Retrieved from Fiix MA Connect API Application settings"}
-    SecretValue: i0bY7aacXi6bPvzQ/v4jJM8XI6uWFbM4RjTbs2f91fd85wMINz1AmFX1lO+3aIhVBCeykOHCJ1i0XaO6UQ+OnE+mCuxgoWXKK0KpbqsVJ1ks+JR1iixwhYBkEPta5nUm/L1cTtcyxC1T
+    SecretValue: yd/tYolNSX+ex/jO/nzRySDrOdMIe9zP58ybUbriBp/0xwf5T6X+iLjlIIIhZ0z/NUJZ/rJriYdL8PxJyJybGAe4wqo2sXueU5QcIzxLJ/BqFE8v/cjtLISWEiVtGt6aRqq5QvQp2gbf
   - Name: Set_FilterSiteNames
     Type: BaseDataVariableType
     DataType: String

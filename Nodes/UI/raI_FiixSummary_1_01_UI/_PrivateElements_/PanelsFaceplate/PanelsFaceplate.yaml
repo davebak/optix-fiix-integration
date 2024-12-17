@@ -2613,6 +2613,25 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "../../../../..@NodeId"
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../../../../HelpScreen/Visible@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Description: {"NamespaceIndex":5,"TextId":"SetValueDescription"}
+                      Value: true
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
                   - Name: OutputArguments
                     Type: BaseObjectType
                     Children:
@@ -2885,6 +2904,7 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
+          Id: g=3a52a786c1c246593310acb0884f069a
           Type: NodePointer
           DataType: NodeId
           Children:
