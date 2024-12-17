@@ -13,6 +13,7 @@ The use cases covered by this project include:
 - Triggering an asset as offline or online based on a value change in a PLC tag.
 - Continuous analog data coming into Fiix as a meter reading (Pressure values)
 - Continuous discrete data coming into Fiix as a meter reading (Number of machine restarts)
+- Triggering an Asset event based on analog data
 
 ## Fiix Optix Libraries
 
