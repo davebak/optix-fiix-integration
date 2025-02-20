@@ -30,7 +30,7 @@ Children:
   - Name: VariablesToLog
     Type: BaseObjectType
     Children:
-    - Name: 'Water Pump #A9_AssetID65025167_EUPSI_EUID850659'
+    - Name: Pump_AssetID65693348_EUPSI_EUID850659
       Type: VariableToLog
       DataType: UInt16
       Children:
@@ -49,18 +49,14 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../Assets/Site_Canada/Cambridge, ON #A7/Water Pump #A9/Pressure"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
+        Value: "/Objects/OT_FiixOptixIntegrationProject/Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump/Pump Pressure"
       - Name: DeadBandMode
         Type: PropertyType
         DataType: DeadBandModeEnum
       - Name: DeadBandValue
         Type: PropertyType
         DataType: Double
-    - Name: 'Water Pump #A9_AssetID65025167_EUcycles_EUID850660'
+    - Name: Pump_AssetID65693348_EUcycles_EUID850660
       Type: VariableToLog
       DataType: Int32
       Children:
@@ -79,11 +75,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../Assets/Site_Canada/Cambridge, ON #A7/Water Pump #A9/StartCount"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
+        Value: "/Objects/OT_FiixOptixIntegrationProject/Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump/Cycle Count"
       - Name: DeadBandMode
         Type: PropertyType
         DataType: DeadBandModeEnum
@@ -139,10 +131,10 @@ Children:
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-        - Name: 'Water Pump #A9_AssetID65025167_EUPSI_EUID850659'
+        - Name: Pump_AssetID65693348_EUPSI_EUID850659
           Type: StoreColumn
           DataType: UInt16
-        - Name: 'Water Pump #A9_AssetID65025167_EUcycles_EUID850660'
+        - Name: Pump_AssetID65693348_EUcycles_EUID850660
           Type: StoreColumn
           DataType: Int32
   - Class: Reference
@@ -212,7 +204,7 @@ Children:
   DataType: EngineeringUnitDictionaryItem
   ValueRank: OneDimension
   ArrayDimensions: [0]
-  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":857949,"DisplayName":{"LocaleId":"en-US","Text":"s"},"Description":{"LocaleId":"en-US","Text":"Fiix_Seconds"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":855732,"DisplayName":{"LocaleId":"en-US","Text":"??"},"Description":{"LocaleId":"en-US","Text":"Fiix_Dave's Meter Reading"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850652,"DisplayName":{"LocaleId":"en-US","Text":"ph"},"Description":{"LocaleId":"en-US","Text":"Fiix_ProductionHours"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850653,"DisplayName":{"LocaleId":"en-US","Text":"rev"},"Description":{"LocaleId":"en-US","Text":"Fiix_Revolutions"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850654,"DisplayName":{"LocaleId":"en-US","Text":"l"},"Description":{"LocaleId":"en-US","Text":"Fiix_Litres"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850655,"DisplayName":{"LocaleId":"en-US","Text":"g"},"Description":{"LocaleId":"en-US","Text":"Fiix_Gallons"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850651,"DisplayName":{"LocaleId":"en-US","Text":"h"},"Description":{"LocaleId":"en-US","Text":"Fiix_Hours"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850660,"DisplayName":{"LocaleId":"en-US","Text":"cycles"},"Description":{"LocaleId":"en-US","Text":"Fiix_Cycles"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850661,"DisplayName":{"LocaleId":"en-US","Text":"km"},"Description":{"LocaleId":"en-US","Text":"Fiix_Kilometers"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850656,"DisplayName":{"LocaleId":"en-US","Text":"m"},"Description":{"LocaleId":"en-US","Text":"Fiix_Meters"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850657,"DisplayName":{"LocaleId":"en-US","Text":"mi"},"Description":{"LocaleId":"en-US","Text":"Fiix_Miles"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850658,"DisplayName":{"LocaleId":"en-US","Text":"kPa"},"Description":{"LocaleId":"en-US","Text":"Fiix_Kilopascals"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850659,"DisplayName":{"LocaleId":"en-US","Text":"PSI"},"Description":{"LocaleId":"en-US","Text":"Fiix_Pounds per square inch"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}}]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":857949,"DisplayName":{"LocaleId":"en-US","Text":"s"},"Description":{"LocaleId":"en-US","Text":"Fiix_Seconds"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":865660,"DisplayName":{"LocaleId":"en-US","Text":"°F"},"Description":{"LocaleId":"en-US","Text":"Fiix_Temperature (Fahrenheit)"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":865662,"DisplayName":{"LocaleId":"en-US","Text":"°C"},"Description":{"LocaleId":"en-US","Text":"Fiix_Temperature (Celsius)"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":865674,"DisplayName":{"LocaleId":"en-US","Text":"%"},"Description":{"LocaleId":"en-US","Text":"Fiix_Humidity"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850652,"DisplayName":{"LocaleId":"en-US","Text":"ph"},"Description":{"LocaleId":"en-US","Text":"Fiix_ProductionHours"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850653,"DisplayName":{"LocaleId":"en-US","Text":"rev"},"Description":{"LocaleId":"en-US","Text":"Fiix_Revolutions"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850654,"DisplayName":{"LocaleId":"en-US","Text":"l"},"Description":{"LocaleId":"en-US","Text":"Fiix_Litres"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850655,"DisplayName":{"LocaleId":"en-US","Text":"g"},"Description":{"LocaleId":"en-US","Text":"Fiix_Gallons"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850651,"DisplayName":{"LocaleId":"en-US","Text":"h"},"Description":{"LocaleId":"en-US","Text":"Fiix_Hours"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850660,"DisplayName":{"LocaleId":"en-US","Text":"cycles"},"Description":{"LocaleId":"en-US","Text":"Fiix_Cycles"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850661,"DisplayName":{"LocaleId":"en-US","Text":"km"},"Description":{"LocaleId":"en-US","Text":"Fiix_Kilometers"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850656,"DisplayName":{"LocaleId":"en-US","Text":"m"},"Description":{"LocaleId":"en-US","Text":"Fiix_Meters"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850657,"DisplayName":{"LocaleId":"en-US","Text":"mi"},"Description":{"LocaleId":"en-US","Text":"Fiix_Miles"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850658,"DisplayName":{"LocaleId":"en-US","Text":"kPa"},"Description":{"LocaleId":"en-US","Text":"Fiix_Kilopascals"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":850659,"DisplayName":{"LocaleId":"en-US","Text":"PSI"},"Description":{"LocaleId":"en-US","Text":"Fiix_Pounds per square inch"},"PhysicalDimension":0,"Slope":0.0,"Intercept":0.0}}]
 - Name: ns=15;LibraryReference
   Type: ObjectLibraryReference
   DataType: ObjectLibraryReferenceDataType

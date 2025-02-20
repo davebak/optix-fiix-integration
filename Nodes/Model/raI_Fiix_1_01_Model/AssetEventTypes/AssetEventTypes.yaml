@@ -47,6 +47,29 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Pump has exceeded 130 PSI"
+- Name: 'AE4 - Pump Shut Off'
+  Type: AssetEventType
+  Children:
+  - Name: id
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 274010
+  - Name: strEventName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pump Shut Off"
+  - Name: strUniqueKey
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AE4"
+  - Name: strEventCode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AE4"
+  - Name: strEventDescription
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pump has been disabled unexpectedly."
 - Name: 'AE2 - Conveyor Shut Down'
   Type: AssetEventType
   Children:

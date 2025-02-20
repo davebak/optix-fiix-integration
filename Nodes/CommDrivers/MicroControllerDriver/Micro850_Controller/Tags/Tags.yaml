@@ -86,7 +86,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Canada/Cambridge, ON #A7/Water Pump #A9@NodeId"
+            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump@NodeId"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -169,7 +169,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Canada/Cambridge, ON #A7/Water Pump #A9@NodeId"
+            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump@NodeId"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -270,7 +270,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Canada/Cambridge, ON #A7/Water Pump #A9@NodeId"
+            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump@NodeId"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -354,7 +354,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Canada/Cambridge, ON #A7/Water Pump #A9@NodeId"
+            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump@NodeId"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -459,7 +459,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Canada/Cambridge, ON #A7/Water Pump #A9@NodeId"
+            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump@NodeId"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -525,10 +525,114 @@ Children:
   - Name: Value
     Type: BaseVariableType
     DataType: Double
-    Value: 1.0
   - Name: Transition
     Type: BaseVariableType
     DataType: VariableTransition
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../_IO_EM_DO_00"
+  - Name: VariableTransitionEventHandler1
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableTransitionEvent"
+    - Name: MethodsToCall
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Type: BaseObjectType
+        Children:
+        - Name: ns=5;ObjectPointer
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../../../Model/raI_Fiix_1_01_Model/Assets/Site_Hamilton/Cambridge, ON #A7/Pump@NodeId"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=5;Method
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "AddEvent"
+        - Name: InputArguments
+          Type: BaseObjectType
+          Children:
+          - Name: eventTypeID
+            Type: BaseDataVariableType
+            DataType: Int32
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../../../../../../Model/raI_Fiix_1_01_Model/AssetEventTypes/AE4 - Pump Shut Off/id"
+          - Name: additionalDescription
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Pump was disabled."
+    - Name: EventArguments
+      Type: VariableTransitionEvent
+      Children:
+      - Name: VariableNodeId
+        Type: BaseVariableType
+        DataType: NodeId
+      - Name: NewValue
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: OldValue
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: EventId
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Type: PropertyType
+        DataType: UInt16
+- Name: _IO_EM_DO_00Transitioned5
+  Type: VariableTransitionEventDispatcher
+  Children:
+  - Name: Value
+    Type: BaseVariableType
+    DataType: Double
+  - Name: Transition
+    Type: BaseVariableType
+    DataType: VariableTransition
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../_IO_EM_DO_00"
+- Name: _IO_EM_DO_00Changed
+  Type: VariableChangedEventDispatcher
+  Children:
   - Name: VariableNodePath
     Type: BaseVariableType
     DataType: NodePath

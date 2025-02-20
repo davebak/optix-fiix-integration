@@ -12,12 +12,10 @@ Children:
     Type: BaseDataVariableType
     DataType: Password
     Description: {"LocaleId":"en-US","Text":"Retrieved from Fiix MA Connect API Application settings"}
-    SecretValue: guAKEFM85KYsACCNWIarG2OxrEFYIJKQMcsXdE+Js58//WOiIPIMvIXm6kTZRtPwdBhQEp0yCSgFxIhftpvn+fFI/wXIoCnvoVNhTe4zAtry1DO3PQUR7zbdsw==
   - Name: Cfg_AppKey
     Type: BaseDataVariableType
     DataType: Password
     Description: {"LocaleId":"en-US","Text":"Retrieved from Fiix MA Connect API Application settings"}
-    SecretValue: M8n0syrf0hq+h2KR4WaYhC1PJQ0khns1ftWDlMQ2eyWOAhS+OeeqzCmmodsXpRMSLT6eB2uXWk1wg+sNNiqA633zcZ6gMyIG0aQswle7dxSUGMBltwY0tUMKXCGa
   - Name: Cfg_FiixURL
     Type: BaseDataVariableType
     DataType: String
@@ -27,12 +25,11 @@ Children:
     Type: BaseDataVariableType
     DataType: Password
     Description: {"LocaleId":"en-US","Text":"Retrieved from Fiix MA Connect API Application settings"}
-    SecretValue: yd/tYolNSX+ex/jO/nzRySDrOdMIe9zP58ybUbriBp/0xwf5T6X+iLjlIIIhZ0z/NUJZ/rJriYdL8PxJyJybGAe4wqo2sXueU5QcIzxLJ/BqFE8v/cjtLISWEiVtGt6aRqq5QvQp2gbf
   - Name: Set_FilterSiteNames
     Type: BaseDataVariableType
     DataType: String
     Description: {"LocaleId":"en-US","Text":"Part of name(s) used to filter Site, under which the assets are to be synced, seperated with comma."}
-    Value: "Canada"
+    Value: "Hamilton"
   - Name: Set_DeleteExtraNodes
     Type: BaseDataVariableType
     DataType: Boolean
@@ -41,11 +38,11 @@ Children:
   - Name: Sts_LastExecutionResult
     Type: BaseDataVariableType
     DataType: String
-    Value: "0 new and 10 synced AssetCategory; 1 new and 2 synced EventType; 0 new and 10 synced OfflineReason; 0 new and 6 synced OnlineReason; 0 new and 5 synced Priority; 0 new and 8 synced WorkOrderStatus; "
+    Value: "0 new and 10 synced AssetCategory; 1 new and 3 synced EventType; 0 new and 10 synced OfflineReason; 0 new and 6 synced OnlineReason; 0 new and 5 synced Priority; 0 new and 8 synced WorkOrderStatus; "
   - Name: Sts_LastExecutionDatetime
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "2024-12-15T21:01:06.9577428"
+    Value: "2025-02-05T20:16:06.5740044"
   - Name: Set_FilterAssetNames
     Type: BaseDataVariableType
     DataType: String
